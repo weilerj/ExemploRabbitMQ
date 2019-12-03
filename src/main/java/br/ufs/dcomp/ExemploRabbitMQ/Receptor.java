@@ -10,7 +10,7 @@ public class Receptor {
 
   public static void main(String[] argv) throws Exception {
     ConnectionFactory factory = new ConnectionFactory();
-    factory.setUri("amqp://...");
+    factory.setUri("amqp://pshgdhjn:lQ9FxDa7q36xoGvzp1y2VklUyBWumEgC@zebra.rmq.cloudamqp.com/pshgdhjn");
     Connection connection = factory.newConnection();
     Channel channel = connection.createChannel();
 
